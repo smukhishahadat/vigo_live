@@ -1,0 +1,10 @@
+include ':AliyunRecorder:record'
+include ':AlivcMedia'
+include ':AliyunEditor'
+include ':AliyunFileDownLoader'
+include ':AliyunSVideoBase'
+include ':AliyunVideoCommon'
+include ':AliyunSvideoMusic'
+include ':AliyunCrop:crop'
+include ':app',
+rootProject.name='vigo'

@@ -1,0 +1,120 @@
+<resources>
+
+
+
+    <string name="app_name" translatable="false">Bakbakum</string>
+    <string name="facebook_app_id" translatable="false">1376358529510879</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1376358529510879</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="following">Following</string>
+    <string name="for_you">For You</string>
+    <string name="skip_ads">Skip Ads</string>
+    <string name="share">Share</string>
+    <string name="download">Download</string>
+    <string name="more">More</string>
+    <string name="less">less</string>
+    <string name="ads">Ads</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="back_online">Back Online</string>
+    <string name="facebook">Facebook</string>
+    <string name="or">Or</string>
+    <string name="google">Google</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="send_otp">Send Otp</string>
+    <string name="record">record</string>
+    <string name="dummy_bio">Content creator and 🍕 food lover.\nLove to make cooking videos and share❤</string>
+    <string name="discover">Discover</string>
+    <string name="favourite">Favourite</string>
+    <string name="search_music">Search Music</string>
+    <string name="banner">banner</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="abcd">qwertyuiopasdfghjklzxcvbnm 1234567890 QWERTYUIOPASDFGHJKLZXCVBNM _</string>
+
+    <string name="dummy_ad_text">Hey there this product is amazing\nget 30% Off on all the products and win\nthe chance to meet priyanka Chopara</string>
+    <string name="imagePickerEmpty">No images found</string>
+    <string name="imagePickerLoading">Loading…</string>
+    <string name="toastImagePickerNoWritePermission">Write storage permission not granted :(</string>
+
+    <string name="imagePickerSingle">Please select an image</string>
+
+    <plurals name="imagePickerMulti">
+        <item quantity="one">You have selected one image</item>
+        <item quantity="other">You have selected %1$d images</item>
+    </plurals>
+    <plurals name="imagePickerMultiMore">
+        <item quantity="one">You have to select one more image</item>
+        <item quantity="other">You have to select %1$d more images</item>
+    </plurals>
+    <string name="imagePickerMultiLimit">You cannot select more than %1$d images</string>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+
+    <string-array name="payment">
+        <item>PayPal</item>
+        <item>Paytm</item>
+    </string-array>
+
+    <string-array name="report_reasons">
+        <item>Violence</item>
+        <item>Nudity</item>
+        <item>Harassment</item>
+        <item>Terrorism</item>
+        <item>Copyright Infringement</item>
+        <item>False News</item>
+    </string-array>
+
+    <string name="file_provider" translatable="false">com.Romoj.musically.fileprovider</string>
+    <string name="close">close</string>
+    <string name="flash">flash</string>
+    <string name="flip">flip</string>
+    <string name="music">music</string>
+    <string name="capture">Capture</string>
+    <string name="photo_of_id_clear_photo">Photo of ID (Clear Photo)</string>
+    <string name="attach">Attach</string>
+    <string name="id_number">ID Number</string>
+    <string name="xxx_xx_xxxxxx_xx">XXX-XX-XXXXXX-XX</string>
+    <string name="name_on_id">Name on ID</string>
+    <string name="full_address">Full Address</string>
+    <string name="same_as_id">Same as ID</string>
+    <string name="submit">SUBMIT</string>
+    <string name="request_verification">Request Verification</string>
+    <string name="your_photo_holding_your_id_card">Your photo (Holding your ID card)</string>
+    <string name="image">image</string>
+    <string name="type_your_comment_here">Type your comment here..</string>
+    <string name="_15s">15s</string>
+    <string name="_60s">60s</string>
+    <string name="likes">Likes</string>
+    <string name="followers">Followers</string>
+    <string name="ad">Ad</string>
+    <string name="term_and_conditions"><![CDATA[Term & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="agree">Agree</string>
+    <string name="please_agree_our_term_amp_conditions_and_privacy_policy"><![CDATA[Please Agree our Term of use \nand Privacy Policy...!]]></string>
+    <string name="term_of_use">Term of Use</string>
+    <string name="continue_privacy_policy">By signing up you agree to our Terms of Use and Privacy Policy</string>
+    <string name="sign_up_for_bubble_tok">Join with us for more fun</string>
+    <string name="create_a_profile_follow_other_creators_nbuild_your_fan_following_by_creating_nyour_own_videos_and_earn_money">Create a profile, follow other creators\nbuild your fan following by creating\nyour own videos and earn money !</string>
+    <string name="with_facebook">Continue with Facebook</string>
+    <string name="with_google">Continue with Google</string>
+    <string name="with_twitter">Continue with Twitter</string>
+    <string name="policy_center">Policy center</string>
+    <string name="by_continuing_you_agree_to_bubbletok_s_terms_of_use_nand_confirm_that_you_have_read_our_privacy_polic">By continuing, you agree to Bakbakum’s terms of use\nand confirm that you have read our privacy policy.</string>
+    <string name="publish">publish</string>
+    <string name="spinner_title">Select Privacy</string>
+    <string name="coins">Coins</string>
+    <string name="io_key">key_live_ic8LXJfPKvqTEEXPHSLGNolorqmW0m8h</string>
+
+    <string name="admob_app_id">ca-app-pub-7718023321623259~4590733817</string>
+    <string name="fb_native_ad_id">---175164563829582_175164610496244</string>
+    <string name="admobe_native_ad_id">ca-app-pub-7718023321623259/6166131796</string>
+
+    <string name="privacy_link" translatable="false">https://bakbakum.app/privacy-policy</string>
+    <string name="terms_link" translatable="false">https://bakbakum.app/terms/</string>
+    <string name="monetization_soon" translatable="false">https://bakbakum.app/terms/</string>
+
+</resources>

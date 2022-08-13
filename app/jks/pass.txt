@@ -1,0 +1,3 @@
+pwd: 123456
+key alias: romoj
+first and last name - romoj

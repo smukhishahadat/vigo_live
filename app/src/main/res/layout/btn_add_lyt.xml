@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:background="@drawable/plus_icon"
+            android:contentDescription="TODO"
+            android:padding="110dp"
+            android:src="@drawable/ic_plus"
+            android:tint="@color/transparent_black_00" />
+
+
+    </RelativeLayout>
+
+</layout>

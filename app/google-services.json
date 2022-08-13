@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "840376683994",
+    "firebase_url": "https://bakbakum-2d7fe-default-rtdb.firebaseio.com",
+    "project_id": "bakbakum-2d7fe",
+    "storage_bucket": "bakbakum-2d7fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840376683994:android:272941757e06f86d1184e3",
+        "android_client_info": {
+          "package_name": "com.bakbakum.shortvdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840376683994-64ibn4pu43tn9jl0rksm7sja7d1j2rbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bakbakum.shortvdo",
+            "certificate_hash": "0213a95ce8c55da782b86c34ffd44b59ea303266"
+          }
+        },
+        {
+          "client_id": "840376683994-u36gf769olmgvlmm3ucjm6350hmgu8gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeoM_fBdGcsDgv51EQr9sq7dmoZK5g4PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840376683994-u36gf769olmgvlmm3ucjm6350hmgu8gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -38,6 +38,7 @@
         <activity android:name="com.bakbakum.shortvdo.view.video.PlayerActivity" />
         <activity android:name="com.bakbakum.shortvdo.view.web.WebViewActivity" />
         <activity
+            android:exported="true"
             android:name="com.bakbakum.shortvdo.view.share.ShareHandleActivity"
             android:launchMode="singleTask">
 
@@ -45,7 +46,8 @@
             <intent-filter>
                 <data
                     android:host="open"
-                    android:scheme="@string/app_name" />
+                    android:scheme="@string/app_name"
+                    tools:ignore="AppLinkUrlError" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -94,7 +96,7 @@
         <activity android:name="com.bakbakum.shortvdo.view.recordvideo.CameraActivity" />
         <activity android:name="com.bakbakum.shortvdo.view.slider.SliderActivity" />
         <activity android:name="com.bakbakum.shortvdo.view.base.BaseActivity" />
-        <activity android:name="com.bakbakum.shortvdo.view.SplashActivity">
+        <activity android:name="com.bakbakum.shortvdo.view.SplashActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>

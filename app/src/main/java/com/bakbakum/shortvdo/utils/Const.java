@@ -1,11 +1,11 @@
 package com.bakbakum.shortvdo.utils;
 
 public interface Const {
-    String BASE_URL = "https://bak-bakum.com/sam/api/";
+    String BASE_URL = "https://shorts.bak-bakum.com/api/";
     String ITEM_BASE_URL = "";
     //String ITEM_BASE_URL = "https://bakbakumshortsapp.s3.ap-southeast-1.amazonaws.com/uploads/";
 
-    String PROFILE_BASE_URL = "https://bak-bakum.com/sam/uploads/";
+    String PROFILE_BASE_URL = "https://shorts.bak-bakum.com/uploads/";
 
     String IS_LOGIN = "is_login";
     String PREF_NAME = "com.sk.romoj";

@@ -26,7 +26,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.HttpURLConnection;
+//import java.net.HttpURLConnection;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.HttpsURLConnection;
+import java.security.cert.Certificate;
+import javax.net.ssl.SSLPeerUnverifiedException;
 import java.net.URL;
 import java.util.Map;
 
@@ -87,7 +91,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         try {
             URL url = new URL(data.get("picture_url"));
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            HttpsURLConnection connection = (HttpsURLConnection) url.openConnection();
             connection.setDoInput(true);
             connection.connect();
             InputStream inputStream = connection.getInputStream();

@@ -155,6 +155,7 @@ public class RecordCommon {
         inZip.close();
     }
 
+
     private static void insertDB(String name) {
         if (name.endsWith(QU_PASTER)) {
             insertPaster();

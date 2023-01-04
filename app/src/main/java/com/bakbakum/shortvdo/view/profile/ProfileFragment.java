@@ -190,13 +190,19 @@ public class ProfileFragment extends BaseFragment {
                         shareProfile();
                         return true;
                     case R.id.block:
-                        ReportSheetFragment blockfragment = new ReportSheetFragment();
-                        Bundle block_urg = new Bundle();
-                        block_urg.putString("userid", viewModel.userId);
-                        block_urg.putInt("reporttype", 2);
-                        blockfragment.setArguments(block_urg);
-                        blockfragment.show(getChildFragmentManager(), blockfragment.getClass().getSimpleName());
-                        Toast.makeText(getContext(), "Your request accepted. We will review and confirm via mail.", Toast.LENGTH_LONG).show();
+                        if (sessionManager.getBooleanValue(Const.IS_LOGIN)) {
+                            ReportSheetFragment blockfragment = new ReportSheetFragment();
+                            Bundle block_urg = new Bundle();
+                            block_urg.putString("userid", viewModel.userId);
+                            block_urg.putInt("reporttype", 2);
+                            block_urg.putString("user", new Gson().toJson(viewModel.user.getValue()));
+                            blockfragment.setArguments(block_urg);
+                            blockfragment.show(getChildFragmentManager(), blockfragment.getClass().getSimpleName());
+                            Toast.makeText(getContext(), "Your request accepted. We will review "+viewModel.user.getValue().getData().getFullName()+" 's profile.", Toast.LENGTH_LONG).show();
+
+                        } else {
+                            Toast.makeText(getContext(), "You have to login first", Toast.LENGTH_LONG).show();
+                        }
                         return true;
                     case R.id.report:
                         ReportSheetFragment fragment = new ReportSheetFragment();

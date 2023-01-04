@@ -116,5 +116,8 @@
     <string name="privacy_link" translatable="false">https://bakbakum.app/privacy-policy</string>
     <string name="terms_link" translatable="false">https://bakbakum.app/terms/</string>
     <string name="monetization_soon" translatable="false">https://bakbakum.app/terms/</string>
+    <string name="block_user">Block User</string>
+    <string name="report_user">Report User</string>
+    <string name="share_profile">Share Profile</string>
 
 </resources>

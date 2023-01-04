@@ -189,6 +189,15 @@ public class ProfileFragment extends BaseFragment {
                     case R.id.share:
                         shareProfile();
                         return true;
+                    case R.id.block:
+                        ReportSheetFragment blockfragment = new ReportSheetFragment();
+                        Bundle block_urg = new Bundle();
+                        block_urg.putString("userid", viewModel.userId);
+                        block_urg.putInt("reporttype", 2);
+                        blockfragment.setArguments(block_urg);
+                        blockfragment.show(getChildFragmentManager(), blockfragment.getClass().getSimpleName());
+                        Toast.makeText(getContext(), "Your request accepted. We will review and confirm via mail.", Toast.LENGTH_LONG).show();
+                        return true;
                     case R.id.report:
                         ReportSheetFragment fragment = new ReportSheetFragment();
                         Bundle args = new Bundle();
@@ -232,9 +241,9 @@ public class ProfileFragment extends BaseFragment {
             String url = "https://play.google.com/store/apps/details?id=%playstore"
                                 .replace("%playstore", getApplicationContext().getPackageName());
             Intent intent = new Intent(android.content.Intent.ACTION_SEND);
-            String shareBody = url + "\nThis Profile Is Amazing On Romoj App";
+            String shareBody = url + "\nThis Profile Is Amazing On Bakbakum App";
             intent.setType("text/plain");
-            intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Profile Share");
+            intent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Share Profile");
             intent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(intent, "Share Profile"));
 //            buo.generateShortUrl(getActivity(), lp, (url, error) -> {

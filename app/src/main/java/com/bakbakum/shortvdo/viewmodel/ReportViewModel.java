@@ -38,6 +38,9 @@ public class ReportViewModel extends ViewModel {
             if (reportType == 1) {
                 hashMap.put("report_type", "report_video");
                 hashMap.put("post_id", postId);
+            }else if (reportType == 2) {
+                hashMap.put("report_type", "block_user");
+                hashMap.put("user_id", userId);
             } else {
                 hashMap.put("report_type", "report_user");
                 hashMap.put("user_id", userId);

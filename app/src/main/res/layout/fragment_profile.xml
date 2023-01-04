@@ -323,6 +323,7 @@
                             android:tint="@color/light_white"
                             android:visibility="@{viewModel.isBackBtn ? View.VISIBLE : View.INVISIBLE}" />
 
+
                         <TextView
                             android:id="@+id/tv_fullName"
                             android:layout_width="0dp"
@@ -332,10 +333,9 @@
                             android:text="@{viewModel.user.data.fullName}"
                             android:textColor="@color/light_white" />
 
-
                         <ImageView
                             android:id="@+id/img_option"
-                            android:layout_width="20dp"
+                            android:layout_width="25dp"
                             android:layout_height="25dp"
                             android:layout_marginEnd="10dp"
                             android:contentDescription="@string/image"
